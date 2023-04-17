@@ -1,5 +1,5 @@
 // iss.js
-const request = require('request');/*
+const request = require('request');
 const fetchMyIP = function(callback) {
   const url = 'https://api.ipify.org?format=json';
 
@@ -61,7 +61,7 @@ const fetchISSFlyOverTimes = function(coords, callback) {
 };
 
 module.exports = { fetchMyIP, fetchCoordsByIp, fetchISSFlyOverTimes };
-*/
+
 
 const nextISSTimesForMyLocation = function(callback) {
   fetchMyIP((error, ip) => {
